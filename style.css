@@ -1,0 +1,27 @@
+body{
+    background:yellow
+}
+
+section p{
+    color:white
+}
+
+
+
+
+p{
+    color:blue
+}
+
+
+p + *{
+    color:coral
+}
+
+section{
+    background-color: black;
+}
+
+.main{
+    color: red
+}
