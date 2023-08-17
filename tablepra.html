@@ -4,50 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=F, initial-scale=1.0">
     <title>Food menu</title>
+    
 </head>
 <body>
     <table border="2">
     <thead>
         <tr>
-            <th>Days</th>
-            <th>Breakfast</th>
-            <th>Launch</th>
-            <th>Dinner</th>
+            <th scope="col">Days</th>
+            <th scope="col">Breakfast</th>
+            <th scope="col">Launch</th>
+            <th scope="col">Dinner</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th>Monday</th>
+            <th scope="row">Monday</th>
             <td>jollof rice</td>
             <td>Friedrice</td>
             <td>Indomie</td>
         </tr>
         <tr>
-            <th>Tuesday</th>
+            <th scope="row">Tuesday</th>
             <td rowspan="4">Bread and Tea</td>
             <td colspan="2">Jollof rice</td>
             <!-- <td>Jollof rice</td> -->
         </tr>
         <tr>
-            <th>Wednesday</th>
+            <th scope="row">Wednesday</th>
             <!-- <td>Bread and Tea</td> -->
             <td rowspan="2">Friedrice</td>
             <td>Bread and Tea</td>
         </tr>
         <tr>
-            <th>Thursday</th>
+            <th scope="row">Thursday</th>
             <!-- <td>Bread and Tea</td> -->
             <!-- <td>Friedrice</td> -->
             <td>Spaghetti</td>
         </tr>
         <tr>
-            <th>Friday</th>
+            <th scope="row">Friday</th>
             <!-- <td>Bread and Tea</td> -->
             <td rowspan="2">Spaghetti</td>
             <td rowspan="2">Friedrice</td>
         </tr>
         <tr>
-            <th>Saturday</th>
+            <th scope="row">Saturday</th>
             <td>Jollof rice</td>
             <!-- <td>Spaghetti</td> -->
             <!-- <td>Friedrice</td> -->
@@ -57,7 +58,7 @@
         </tr>
     </tbody>
     <tfoot>
-        <th>Sunday</th>
+        <th scope="row">Sunday</th>
         <td colspan="3">Suya rice</td>
         <!-- <td>Suya rice</td> -->
         <!-- <td>Suya rice</td> -->
